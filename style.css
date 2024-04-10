@@ -1,0 +1,49 @@
+/* Reset de margin e padding para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container das imagens e do formulário */
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* Estilo para as imagens */
+.imagens img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para o formulário de login */
+.login {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box; 
+    background-color: #007a8e;
+}
